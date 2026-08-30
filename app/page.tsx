@@ -72,7 +72,7 @@ export default function Home() {
 
         {posts.length === 0 ? (
           <section className="flex min-h-80 flex-col items-center justify-center rounded-xl border border-zinc-200 bg-white p-8 text-center">
-            <h2 className="text-xl font-semibold">
+            <h2 className="text-xl font-semibold text-gray-600">
               O feed está vazio
             </h2>
 
