@@ -142,7 +142,7 @@ export default function Home() {
           <div className="flex justify-end gap-2">
             <button
               onClick={handleCloseModal}
-              className="rounded-lg border border-zinc-300 px-4 py-2"
+              className="rounded-lg border border-zinc-300 px-4 py-2 text-red-500"
             >
               Cancelar
             </button>
@@ -182,17 +182,10 @@ export default function Home() {
           </div>
 
           <div className="flex justify-between gap-2">
-            <button
-              onClick={handleBackStep}
-              className="rounded-lg border border-zinc-300 px-4 py-2"
-            >
-              Voltar
-            </button>
-
             <div className="flex gap-2">
               <button
                 onClick={handleCloseModal}
-                className="rounded-lg border border-zinc-300 px-4 py-2"
+                className="rounded-lg border border-zinc-300 px-4 py-2 text-red-500"
               >
                 Cancelar
               </button>
